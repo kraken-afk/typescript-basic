@@ -9,6 +9,7 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "swc src -d output/"
+    "build": "swc src -d out/",
+    "dev": "swc src -d out-dev/  --watch"
   }
 }
